@@ -14,6 +14,10 @@ One static page with no build step and no tracking. Settings are kept in the vis
 | `icons/`, `og.jpg` | App icons and the link preview image |
 | `fonts/` | Cormorant Garamond and IBM Plex Mono, self hosted (SIL Open Font License, see `fonts/OFL.txt`) |
 
+## Publishing
+
+Live at https://brianmurphy141.github.io/Suan/. Hosting serves the `gh-pages` branch, so publish changes with `git push origin main main:gh-pages`.
+
 ## Moving to your own domain
 
 Add a file named `CNAME` containing the domain, point the domain's DNS at the host, and update the `canonical`, `og:url` and `og:image` addresses in `index.html`.
